@@ -2,6 +2,8 @@
 
 🇫🇷 [Français](#français) · 🇬🇧 [English](#english)
 
+**Essayer la démo / Try the demo :** https://valentin-auger-laboratoire.github.io/portfolio/demos/medpredict/
+
 ![Fiabilité du parc et coût de maintenance selon l'âge de remplacement](images/fiabilite.png)
 
 > Données **fictives**, générées pour l'exemple. Outil d'étude, pas un logiciel de gestion de parc biomédical.
@@ -39,6 +41,7 @@ Le CSV contient trois colonnes : `appareil`, `heures`, `etat` (`panne` ou `en_se
 ### Fichiers
 | Fichier | Contenu |
 |---|---|
+| `demo/` | démo web (copie de celle du portfolio), avec ses tests : `node demo/tests/test.js` |
 | `medpredict/fiabilite.py` | Weibull, estimation avec censure, Kaplan-Meier, maintenance préventive |
 | `analyse.py` | rapport en ligne de commande |
 | `donnees/pousse-seringues.csv` | historique fictif de 40 appareils |
